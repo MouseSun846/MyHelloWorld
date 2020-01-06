@@ -1,0 +1,27 @@
+#普通数据的配置
+name: MouseSun
+#对象的配置
+server:
+  port: 8082
+#行内对象配置
+person: {name: zhangsan,age: 18,addr: beijing}
+
+
+#配置数据、集合
+#city:
+#  - beijing
+#  - tinajian
+#city: [beijing,tianjin,chongqi]
+#配置数据、集合（对象数据）
+#student:
+#  - name: tom
+#    age: 18
+#    addr: beijing
+#  - name: lucy
+#    age: 17
+#    addr: tianjing
+#student: [{name: tom,age: 18,addr: beijing},{name: lucy,age: 17,addr: tianjin}]
+#Map配置
+map:
+  key1: value1
+  key2: value2

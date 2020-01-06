@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.mousesun.controller.QuickController3",
+      "sourceType": "com.mousesun.controller.QuickController3"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.addr",
+      "type": "java.lang.String",
+      "sourceType": "com.mousesun.controller.QuickController3"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mousesun.controller.QuickController3"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.mousesun.controller.QuickController3"
+    }
+  ],
+  "hints": []
+}
