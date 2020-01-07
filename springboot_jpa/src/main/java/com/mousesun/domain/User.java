@@ -1,10 +1,13 @@
 package com.mousesun.domain;
 
-import org.springframework.data.annotation.Id;
+
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 
 /**
  * Spring JPA需要注解配置
@@ -12,7 +15,7 @@ import javax.persistence.GenerationType;
 @Entity
 public class User {
 
-    @javax.persistence.Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String username;
